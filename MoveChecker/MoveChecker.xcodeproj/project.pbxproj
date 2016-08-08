@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9812FF991D575BA900F49304 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9812FF981D575BA900F49304 /* AppDelegate.swift */; };
+		9812FF9B1D575BA900F49304 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9812FF9A1D575BA900F49304 /* ViewController.swift */; };
+		9812FF9D1D575BA900F49304 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9812FF9C1D575BA900F49304 /* Assets.xcassets */; };
+		9812FFA01D575BA900F49304 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9812FF9E1D575BA900F49304 /* Main.storyboard */; };
+		9812FFAB1D575BA900F49304 /* MoveCheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9812FFAA1D575BA900F49304 /* MoveCheckerTests.swift */; };
+		9812FFB61D575BA900F49304 /* MoveCheckerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9812FFB51D575BA900F49304 /* MoveCheckerUITests.swift */; };
+		9812FFC71D58984900F49304 /* Folder_open.artx in Resources */ = {isa = PBXBuildFile; fileRef = 9812FFC51D58984900F49304 /* Folder_open.artx */; };
+		9812FFC81D58984900F49304 /* Folder_open.png in Resources */ = {isa = PBXBuildFile; fileRef = 9812FFC61D58984900F49304 /* Folder_open.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9812FFA71D575BA900F49304 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9812FF8D1D575BA800F49304 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9812FF941D575BA800F49304;
+			remoteInfo = MoveChecker;
+		};
+		9812FFB21D575BA900F49304 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9812FF8D1D575BA800F49304 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9812FF941D575BA800F49304;
+			remoteInfo = MoveChecker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9812FF951D575BA900F49304 /* MoveChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoveChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9812FF981D575BA900F49304 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9812FF9A1D575BA900F49304 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9812FF9C1D575BA900F49304 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9812FF9F1D575BA900F49304 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9812FFA11D575BA900F49304 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9812FFA61D575BA900F49304 /* MoveCheckerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoveCheckerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9812FFAA1D575BA900F49304 /* MoveCheckerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveCheckerTests.swift; sourceTree = "<group>"; };
+		9812FFAC1D575BA900F49304 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9812FFB11D575BA900F49304 /* MoveCheckerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoveCheckerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9812FFB51D575BA900F49304 /* MoveCheckerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveCheckerUITests.swift; sourceTree = "<group>"; };
+		9812FFB71D575BA900F49304 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9812FFC51D58984900F49304 /* Folder_open.artx */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Folder_open.artx; sourceTree = "<group>"; };
+		9812FFC61D58984900F49304 /* Folder_open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Folder_open.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9812FF921D575BA800F49304 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9812FFA31D575BA900F49304 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9812FFAE1D575BA900F49304 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9812FF8C1D575BA800F49304 = {
+			isa = PBXGroup;
+			children = (
+				9812FF971D575BA900F49304 /* MoveChecker */,
+				9812FFA91D575BA900F49304 /* MoveCheckerTests */,
+				9812FFB41D575BA900F49304 /* MoveCheckerUITests */,
+				9812FF961D575BA900F49304 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9812FF961D575BA900F49304 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9812FF951D575BA900F49304 /* MoveChecker.app */,
+				9812FFA61D575BA900F49304 /* MoveCheckerTests.xctest */,
+				9812FFB11D575BA900F49304 /* MoveCheckerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9812FF971D575BA900F49304 /* MoveChecker */ = {
+			isa = PBXGroup;
+			children = (
+				9812FFC41D58984900F49304 /* Images */,
+				9812FF981D575BA900F49304 /* AppDelegate.swift */,
+				9812FF9A1D575BA900F49304 /* ViewController.swift */,
+				9812FF9C1D575BA900F49304 /* Assets.xcassets */,
+				9812FF9E1D575BA900F49304 /* Main.storyboard */,
+				9812FFA11D575BA900F49304 /* Info.plist */,
+			);
+			path = MoveChecker;
+			sourceTree = "<group>";
+		};
+		9812FFA91D575BA900F49304 /* MoveCheckerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9812FFAA1D575BA900F49304 /* MoveCheckerTests.swift */,
+				9812FFAC1D575BA900F49304 /* Info.plist */,
+			);
+			path = MoveCheckerTests;
+			sourceTree = "<group>";
+		};
+		9812FFB41D575BA900F49304 /* MoveCheckerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9812FFB51D575BA900F49304 /* MoveCheckerUITests.swift */,
+				9812FFB71D575BA900F49304 /* Info.plist */,
+			);
+			path = MoveCheckerUITests;
+			sourceTree = "<group>";
+		};
+		9812FFC41D58984900F49304 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9812FFC51D58984900F49304 /* Folder_open.artx */,
+				9812FFC61D58984900F49304 /* Folder_open.png */,
+			);
+			path = Images;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9812FF941D575BA800F49304 /* MoveChecker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9812FFBA1D575BA900F49304 /* Build configuration list for PBXNativeTarget "MoveChecker" */;
+			buildPhases = (
+				9812FF911D575BA800F49304 /* Sources */,
+				9812FF921D575BA800F49304 /* Frameworks */,
+				9812FF931D575BA800F49304 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoveChecker;
+			productName = MoveChecker;
+			productReference = 9812FF951D575BA900F49304 /* MoveChecker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9812FFA51D575BA900F49304 /* MoveCheckerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9812FFBD1D575BA900F49304 /* Build configuration list for PBXNativeTarget "MoveCheckerTests" */;
+			buildPhases = (
+				9812FFA21D575BA900F49304 /* Sources */,
+				9812FFA31D575BA900F49304 /* Frameworks */,
+				9812FFA41D575BA900F49304 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9812FFA81D575BA900F49304 /* PBXTargetDependency */,
+			);
+			name = MoveCheckerTests;
+			productName = MoveCheckerTests;
+			productReference = 9812FFA61D575BA900F49304 /* MoveCheckerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9812FFB01D575BA900F49304 /* MoveCheckerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9812FFC01D575BA900F49304 /* Build configuration list for PBXNativeTarget "MoveCheckerUITests" */;
+			buildPhases = (
+				9812FFAD1D575BA900F49304 /* Sources */,
+				9812FFAE1D575BA900F49304 /* Frameworks */,
+				9812FFAF1D575BA900F49304 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9812FFB31D575BA900F49304 /* PBXTargetDependency */,
+			);
+			name = MoveCheckerUITests;
+			productName = MoveCheckerUITests;
+			productReference = 9812FFB11D575BA900F49304 /* MoveCheckerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9812FF8D1D575BA800F49304 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "寺内 信夫";
+				TargetAttributes = {
+					9812FF941D575BA800F49304 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					9812FFA51D575BA900F49304 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 9812FF941D575BA800F49304;
+					};
+					9812FFB01D575BA900F49304 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 9812FF941D575BA800F49304;
+					};
+				};
+			};
+			buildConfigurationList = 9812FF901D575BA800F49304 /* Build configuration list for PBXProject "MoveChecker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9812FF8C1D575BA800F49304;
+			productRefGroup = 9812FF961D575BA900F49304 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9812FF941D575BA800F49304 /* MoveChecker */,
+				9812FFA51D575BA900F49304 /* MoveCheckerTests */,
+				9812FFB01D575BA900F49304 /* MoveCheckerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9812FF931D575BA800F49304 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9812FF9D1D575BA900F49304 /* Assets.xcassets in Resources */,
+				9812FFA01D575BA900F49304 /* Main.storyboard in Resources */,
+				9812FFC71D58984900F49304 /* Folder_open.artx in Resources */,
+				9812FFC81D58984900F49304 /* Folder_open.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9812FFA41D575BA900F49304 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9812FFAF1D575BA900F49304 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9812FF911D575BA800F49304 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9812FF9B1D575BA900F49304 /* ViewController.swift in Sources */,
+				9812FF991D575BA900F49304 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9812FFA21D575BA900F49304 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9812FFAB1D575BA900F49304 /* MoveCheckerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9812FFAD1D575BA900F49304 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9812FFB61D575BA900F49304 /* MoveCheckerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9812FFA81D575BA900F49304 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9812FF941D575BA800F49304 /* MoveChecker */;
+			targetProxy = 9812FFA71D575BA900F49304 /* PBXContainerItemProxy */;
+		};
+		9812FFB31D575BA900F49304 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9812FF941D575BA800F49304 /* MoveChecker */;
+			targetProxy = 9812FFB21D575BA900F49304 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9812FF9E1D575BA900F49304 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9812FF9F1D575BA900F49304 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9812FFB81D575BA900F49304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9812FFB91D575BA900F49304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9812FFBB1D575BA900F49304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MoveChecker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tera.MoveChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9812FFBC1D575BA900F49304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MoveChecker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tera.MoveChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9812FFBE1D575BA900F49304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MoveCheckerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tera.MoveCheckerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoveChecker.app/Contents/MacOS/MoveChecker";
+			};
+			name = Debug;
+		};
+		9812FFBF1D575BA900F49304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MoveCheckerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tera.MoveCheckerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoveChecker.app/Contents/MacOS/MoveChecker";
+			};
+			name = Release;
+		};
+		9812FFC11D575BA900F49304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MoveCheckerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tera.MoveCheckerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MoveChecker;
+			};
+			name = Debug;
+		};
+		9812FFC21D575BA900F49304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MoveCheckerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tera.MoveCheckerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MoveChecker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9812FF901D575BA800F49304 /* Build configuration list for PBXProject "MoveChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9812FFB81D575BA900F49304 /* Debug */,
+				9812FFB91D575BA900F49304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9812FFBA1D575BA900F49304 /* Build configuration list for PBXNativeTarget "MoveChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9812FFBB1D575BA900F49304 /* Debug */,
+				9812FFBC1D575BA900F49304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9812FFBD1D575BA900F49304 /* Build configuration list for PBXNativeTarget "MoveCheckerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9812FFBE1D575BA900F49304 /* Debug */,
+				9812FFBF1D575BA900F49304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9812FFC01D575BA900F49304 /* Build configuration list for PBXNativeTarget "MoveCheckerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9812FFC11D575BA900F49304 /* Debug */,
+				9812FFC21D575BA900F49304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9812FF8D1D575BA800F49304 /* Project object */;
+}
