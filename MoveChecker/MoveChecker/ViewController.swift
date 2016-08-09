@@ -10,6 +10,14 @@ import Cocoa
 
 class ViewController: NSViewController {
 
+	@IBOutlet weak var button_From: NSButton!
+	@IBOutlet weak var textField_From: NSTextField!
+	
+	@IBOutlet weak var button_ToBase: NSButton!
+	@IBOutlet weak var textField_ToBase: NSTextField!
+
+	@IBOutlet weak var textField_To: NSTextField!
+	
 	override func viewDidLoad() {
 		super.viewDidLoad()
 

@@ -13,8 +13,9 @@
 		9812FFA01D575BA900F49304 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9812FF9E1D575BA900F49304 /* Main.storyboard */; };
 		9812FFAB1D575BA900F49304 /* MoveCheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9812FFAA1D575BA900F49304 /* MoveCheckerTests.swift */; };
 		9812FFB61D575BA900F49304 /* MoveCheckerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9812FFB51D575BA900F49304 /* MoveCheckerUITests.swift */; };
-		9812FFC71D58984900F49304 /* Folder_open.artx in Resources */ = {isa = PBXBuildFile; fileRef = 9812FFC51D58984900F49304 /* Folder_open.artx */; };
 		9812FFC81D58984900F49304 /* Folder_open.png in Resources */ = {isa = PBXBuildFile; fileRef = 9812FFC61D58984900F49304 /* Folder_open.png */; };
+		986D07E31D5A1235005DC644 /* Equals.png in Resources */ = {isa = PBXBuildFile; fileRef = 986D07E21D5A1235005DC644 /* Equals.png */; };
+		986D07E51D5A6791005DC644 /* Hatena.png in Resources */ = {isa = PBXBuildFile; fileRef = 986D07E41D5A6791005DC644 /* Hatena.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +48,9 @@
 		9812FFB11D575BA900F49304 /* MoveCheckerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoveCheckerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9812FFB51D575BA900F49304 /* MoveCheckerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveCheckerUITests.swift; sourceTree = "<group>"; };
 		9812FFB71D575BA900F49304 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9812FFC51D58984900F49304 /* Folder_open.artx */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Folder_open.artx; sourceTree = "<group>"; };
 		9812FFC61D58984900F49304 /* Folder_open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Folder_open.png; sourceTree = "<group>"; };
+		986D07E21D5A1235005DC644 /* Equals.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Equals.png; sourceTree = "<group>"; };
+		986D07E41D5A6791005DC644 /* Hatena.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hatena.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,7 +132,8 @@
 		9812FFC41D58984900F49304 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				9812FFC51D58984900F49304 /* Folder_open.artx */,
+				986D07E41D5A6791005DC644 /* Hatena.png */,
+				986D07E21D5A1235005DC644 /* Equals.png */,
 				9812FFC61D58984900F49304 /* Folder_open.png */,
 			);
 			path = Images;
@@ -240,10 +243,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				986D07E51D5A6791005DC644 /* Hatena.png in Resources */,
 				9812FF9D1D575BA900F49304 /* Assets.xcassets in Resources */,
 				9812FFA01D575BA900F49304 /* Main.storyboard in Resources */,
-				9812FFC71D58984900F49304 /* Folder_open.artx in Resources */,
 				9812FFC81D58984900F49304 /* Folder_open.png in Resources */,
+				986D07E31D5A1235005DC644 /* Equals.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,6 +495,7 @@
 				9812FFBC1D575BA900F49304 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9812FFBD1D575BA900F49304 /* Build configuration list for PBXNativeTarget "MoveCheckerTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +504,7 @@
 				9812FFBF1D575BA900F49304 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9812FFC01D575BA900F49304 /* Build configuration list for PBXNativeTarget "MoveCheckerUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +513,7 @@
 				9812FFC21D575BA900F49304 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
