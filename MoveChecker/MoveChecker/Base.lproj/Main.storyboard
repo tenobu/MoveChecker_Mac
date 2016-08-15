@@ -699,6 +699,9 @@
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
+                                <connections>
+                                    <action selector="button_From_On:" target="XfG-lQ-9wD" id="QFx-Dc-qqp"/>
+                                </connections>
                             </button>
                             <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="z71-Jg-yjd">
                                 <rect key="frame" x="60" y="198" width="400" height="22"/>
@@ -733,6 +736,9 @@
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
+                                <connections>
+                                    <action selector="button_ToBase_On:" target="XfG-lQ-9wD" id="ZdL-D0-dda"/>
+                                </connections>
                             </button>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="lfe-AB-6cW">
                                 <rect key="frame" x="74" y="154" width="388" height="24"/>
@@ -762,9 +768,30 @@
                                 </constraints>
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="Hatena" id="tdh-YF-DDJ"/>
                             </imageView>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="AVH-Pw-h82">
+                                <rect key="frame" x="385" y="128" width="81" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="69" id="fej-bh-qWa"/>
+                                </constraints>
+                                <buttonCell key="cell" type="push" title="Delete" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Igv-U6-FFb">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                            </button>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="bDj-1B-Sjm">
+                                <rect key="frame" x="304" y="128" width="81" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="69" id="BtV-Ek-VTu"/>
+                                </constraints>
+                                <buttonCell key="cell" type="push" title="Copy" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="2Zh-pI-cm2">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                            </button>
                         </subviews>
                         <constraints>
                             <constraint firstItem="DUH-zr-CWd" firstAttribute="leading" secondItem="KhV-fc-Y3D" secondAttribute="leading" id="0mi-Km-Ojz"/>
+                            <constraint firstItem="AVH-Pw-h82" firstAttribute="leading" secondItem="bDj-1B-Sjm" secondAttribute="trailing" constant="12" symbolic="YES" id="1lv-aN-Gko"/>
                             <constraint firstItem="0A8-Z1-M9O" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="2Mh-hZ-sbY"/>
                             <constraint firstAttribute="trailing" secondItem="WgL-on-aC6" secondAttribute="trailing" constant="20" id="39M-46-HFV"/>
                             <constraint firstItem="gxS-E5-GzO" firstAttribute="leading" secondItem="KhV-fc-Y3D" secondAttribute="leading" id="3a0-J8-Gfo"/>
@@ -776,6 +803,7 @@
                             <constraint firstItem="gwW-l9-x2p" firstAttribute="top" secondItem="DUH-zr-CWd" secondAttribute="bottom" constant="10" id="JLY-2Q-4C7"/>
                             <constraint firstItem="gwW-l9-x2p" firstAttribute="centerY" secondItem="KhV-fc-Y3D" secondAttribute="centerY" id="Nsq-PX-rgN"/>
                             <constraint firstItem="36k-dQ-tzp" firstAttribute="trailing" secondItem="z71-Jg-yjd" secondAttribute="trailing" id="O4y-jh-V8B"/>
+                            <constraint firstItem="AVH-Pw-h82" firstAttribute="trailing" secondItem="lfe-AB-6cW" secondAttribute="trailing" id="O8A-QA-5r7"/>
                             <constraint firstItem="gwW-l9-x2p" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="60" id="Oo9-DZ-Abv"/>
                             <constraint firstItem="yCa-v4-DZQ" firstAttribute="top" secondItem="DUH-zr-CWd" secondAttribute="top" id="RFD-Qe-jPC"/>
                             <constraint firstItem="z71-Jg-yjd" firstAttribute="leading" secondItem="0A8-Z1-M9O" secondAttribute="trailing" constant="8" id="TV0-J9-2Yj"/>
@@ -788,11 +816,13 @@
                             <constraint firstItem="z71-Jg-yjd" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="50" id="d3D-kc-ldN"/>
                             <constraint firstItem="gwW-l9-x2p" firstAttribute="centerY" secondItem="36k-dQ-tzp" secondAttribute="centerY" id="dzC-F5-8g8"/>
                             <constraint firstItem="0A8-Z1-M9O" firstAttribute="top" secondItem="Yz6-6b-tlE" secondAttribute="bottom" constant="8" id="fVU-fv-9Hx"/>
+                            <constraint firstItem="AVH-Pw-h82" firstAttribute="baseline" secondItem="bDj-1B-Sjm" secondAttribute="baseline" id="gBA-1I-cJ1"/>
                             <constraint firstItem="36k-dQ-tzp" firstAttribute="leading" secondItem="gwW-l9-x2p" secondAttribute="trailing" constant="8" symbolic="YES" id="gCQ-iy-ifW"/>
                             <constraint firstAttribute="trailing" secondItem="36k-dQ-tzp" secondAttribute="trailing" constant="20" symbolic="YES" id="jru-PJ-FX7"/>
                             <constraint firstItem="lfe-AB-6cW" firstAttribute="centerY" secondItem="DUH-zr-CWd" secondAttribute="centerY" id="m39-ZE-SCd"/>
                             <constraint firstItem="lfe-AB-6cW" firstAttribute="leading" secondItem="DUH-zr-CWd" secondAttribute="trailing" constant="8" symbolic="YES" id="moR-pO-wA1"/>
                             <constraint firstItem="gwW-l9-x2p" firstAttribute="leading" secondItem="z71-Jg-yjd" secondAttribute="leading" id="nHX-KB-UfE"/>
+                            <constraint firstItem="36k-dQ-tzp" firstAttribute="top" secondItem="bDj-1B-Sjm" secondAttribute="bottom" constant="8" id="rDO-fp-1cX"/>
                             <constraint firstItem="DUH-zr-CWd" firstAttribute="top" secondItem="z71-Jg-yjd" secondAttribute="bottom" constant="8" symbolic="YES" id="rWv-ch-qMM"/>
                             <constraint firstItem="gxS-E5-GzO" firstAttribute="centerY" secondItem="WgL-on-aC6" secondAttribute="centerY" id="rfx-9Y-bMf"/>
                             <constraint firstItem="Yz6-6b-tlE" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="usr-ZM-AN6"/>
@@ -800,6 +830,8 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="button_Copy" destination="bDj-1B-Sjm" id="vkO-uh-aRJ"/>
+                        <outlet property="button_Delete" destination="AVH-Pw-h82" id="jiK-jY-48c"/>
                         <outlet property="button_From" destination="0A8-Z1-M9O" id="7w5-SB-UH4"/>
                         <outlet property="button_ToBase" destination="gwW-l9-x2p" id="Rzi-Cn-pmB"/>
                         <outlet property="textField_From" destination="z71-Jg-yjd" id="hd7-cX-bct"/>
