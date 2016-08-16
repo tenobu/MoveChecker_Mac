@@ -777,9 +777,12 @@
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
+                                <connections>
+                                    <action selector="button_Delete_On:" target="XfG-lQ-9wD" id="brc-nN-JYr"/>
+                                </connections>
                             </button>
-                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="bDj-1B-Sjm">
-                                <rect key="frame" x="304" y="128" width="81" height="32"/>
+                            <button verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bDj-1B-Sjm">
+                                <rect key="frame" x="304" y="127" width="81" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="69" id="BtV-Ek-VTu"/>
                                 </constraints>
@@ -787,6 +790,9 @@
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
+                                <connections>
+                                    <action selector="button_Copy_On:" target="XfG-lQ-9wD" id="9gk-RW-2HR"/>
+                                </connections>
                             </button>
                         </subviews>
                         <constraints>
@@ -830,7 +836,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="button_Copy" destination="bDj-1B-Sjm" id="vkO-uh-aRJ"/>
+                        <outlet property="button_Copy" destination="bDj-1B-Sjm" id="ePJ-JJ-Szn"/>
                         <outlet property="button_Delete" destination="AVH-Pw-h82" id="jiK-jY-48c"/>
                         <outlet property="button_From" destination="0A8-Z1-M9O" id="7w5-SB-UH4"/>
                         <outlet property="button_ToBase" destination="gwW-l9-x2p" id="Rzi-Cn-pmB"/>

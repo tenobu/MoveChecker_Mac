@@ -21,19 +21,24 @@ class ViewController: NSViewController {
 	@IBOutlet weak var button_Copy     : NSButton!
 	@IBOutlet weak var button_Delete   : NSButton!
 	
+	let fileManager: NSFileManager = NSFileManager.defaultManager()
+	
+	
 	override func viewDidLoad() {
 		super.viewDidLoad()
 
 		let defaults = NSUserDefaults.standardUserDefaults()
-		if let from = defaults.stringForKey("From") {
-			self.textField_From.stringValue = from
+		if let from    = defaults.stringForKey("From"  ) {
+			self.textField_From  .stringValue = from
 		}
 		if let to_base = defaults.stringForKey("ToBase") {
 			self.textField_ToBase.stringValue = to_base
 		}
-		if let to = defaults.stringForKey("To") {
-			self.textField_To.stringValue = to
-		}
+		
+		//button_Copy  .enabled = false
+		button_Delete.enabled = false
+		
+		self.makeToFolder()
 	}
 	
 	override func viewDidDisappear() {
@@ -41,12 +46,10 @@ class ViewController: NSViewController {
 		
 		let from    = self.textField_From  .stringValue
 		let to_base = self.textField_ToBase.stringValue
-		let to      = self.textField_To    .stringValue
 		
 		let defaults = NSUserDefaults.standardUserDefaults()
 		defaults.setObject(from   , forKey: "From"  )
 		defaults.setObject(to_base, forKey: "ToBase")
-		defaults.setObject(to     , forKey: "To"    )
 	}
 	
 	override var representedObject: AnyObject? {
@@ -66,6 +69,11 @@ class ViewController: NSViewController {
 		openPanel.canCreateDirectories = true;
 		//openPanel.delegate = self;
 		
+		var isDir : ObjCBool = true
+		if fileManager.fileExistsAtPath(self.textField_From.stringValue, isDirectory: &isDir) {
+			openPanel.directoryURL = NSURL(fileURLWithPath: self.textField_From.stringValue)
+		}
+		
 		openPanel.beginWithCompletionHandler { (result) -> Void in
 			if(result == NSFileHandlingPanelOKButton){
 				let path = openPanel.URL!.path!
@@ -74,6 +82,8 @@ class ViewController: NSViewController {
 				//self.savePref("watchFolder", value: path);
 				
 				self.textField_From.stringValue = path
+				
+				self.makeToFolder()
 			}
 		}
 	}
@@ -88,6 +98,11 @@ class ViewController: NSViewController {
 		openPanel.allowsMultipleSelection = false;
 		openPanel.canCreateDirectories = true;
 		//openPanel.delegate = self;
+		
+		var isDir : ObjCBool = true
+		if fileManager.fileExistsAtPath(self.textField_ToBase.stringValue, isDirectory: &isDir) {
+			openPanel.directoryURL = NSURL(fileURLWithPath: self.textField_ToBase.stringValue)
+		}
 		
 		openPanel.beginWithCompletionHandler { (result) -> Void in
 			if(result == NSFileHandlingPanelOKButton){
@@ -112,10 +127,8 @@ class ViewController: NSViewController {
 	}
 	
 	private func makeToFolder() {
-		let from = self.textField_From.stringValue;
+		let from = self.textField_From.stringValue
 		
-		let fileManager = NSFileManager.defaultManager()
-
 		var isDir : ObjCBool = true
 		if fileManager.fileExistsAtPath(from, isDirectory: &isDir) == false {
 			return
@@ -129,7 +142,36 @@ class ViewController: NSViewController {
 		let froms = from.componentsSeparatedByString("/")
 		
 		self.textField_To.stringValue = to_base + "/" + froms[froms.count - 1]
+		
+		//let to = self.textField_To.stringValue
+		
+		//CheckFolder(from, to: to)
 	}
 
+	@IBAction func button_Copy_On(sender: AnyObject) {
+		let from = self.textField_From.stringValue
+		let to   = self.textField_To  .stringValue
+		
+		CheckFolder(from, to: to)
+	}
+	
+	@IBAction func button_Delete_On(sender: AnyObject) {
+	}
+	
+	private func CheckFolder(from: String, to: String) {
+		loop:
+			
+		if let from_list = try? fileManager.contentsOfDirectoryAtPath(from) {
+			if let to_list   = try? fileManager.contentsOfDirectoryAtPath(to  ) {
+			
+				
+			} else {
+				if let succeed = try? fileManager.createDirectoryAtPath(to, withIntermediateDirectories: false, attributes: nil) {
+					break loop
+				}
+			}
+		}
+		
+	}
 }
 
