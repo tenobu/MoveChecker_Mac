@@ -10,13 +10,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MoveChecker/ViewController.swift"
-            timestampString = "493073983.534449"
+            timestampString = "495963264.459317"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "165"
-            endingLineNumber = "165"
+            startingLineNumber = "166"
+            endingLineNumber = "166"
             landmarkName = "CheckFolder(_:to:)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -26,13 +26,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MoveChecker/ViewController.swift"
-            timestampString = "493073983.534449"
+            timestampString = "495963264.459317"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "170"
-            endingLineNumber = "170"
+            startingLineNumber = "171"
+            endingLineNumber = "171"
             landmarkName = "CheckFolder(_:to:)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -42,45 +42,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MoveChecker/ViewController.swift"
-            timestampString = "493074028.436642"
+            timestampString = "495963264.459317"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "162"
             endingLineNumber = "162"
             landmarkName = "CheckFolder(_:to:)"
-            landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MoveChecker.ViewController.(CheckFolder in _37CF1A6FB08D344E2274B65B8256C86D) (Swift.String, to : Swift.String) -&gt; ()"
-                  moduleName = "MoveChecker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tenobu/%E3%82%BD%E3%83%95%E3%83%88%E9%96%8B%E7%99%BA/iMac%20v7/MoveChecker_Mac/MoveChecker/MoveChecker/ViewController.swift"
-                  timestampString = "493074028.438877"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "164"
-                  endingLineNumber = "164"
-                  offsetFromSymbolStart = "43">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MoveChecker.ViewController.(CheckFolder in _37CF1A6FB08D344E2274B65B8256C86D) (Swift.String, to : Swift.String) -&gt; ()"
-                  moduleName = "MoveChecker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tenobu/%E3%82%BD%E3%83%95%E3%83%88%E9%96%8B%E7%99%BA/iMac%20v7/MoveChecker_Mac/MoveChecker/MoveChecker/ViewController.swift"
-                  timestampString = "493074028.439067"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "164"
-                  endingLineNumber = "164"
-                  offsetFromSymbolStart = "376">
-               </Location>
-            </Locations>
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
