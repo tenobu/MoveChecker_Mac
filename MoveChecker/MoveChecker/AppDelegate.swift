@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  MoveChecker
 //
-//  Created by 寺内 信夫 on 2016/08/07.
+//  Created by 寺内 信夫 on 2016/09/22.
 //  Copyright © 2016年 寺内 信夫. All rights reserved.
 //
 

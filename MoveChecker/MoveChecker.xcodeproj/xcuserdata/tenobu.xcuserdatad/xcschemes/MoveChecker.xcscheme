@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9812FF941D575BA800F49304"
+               BlueprintIdentifier = "983FFE2C1D93577A00C381B5"
                BuildableName = "MoveChecker.app"
                BlueprintName = "MoveChecker"
                ReferencedContainer = "container:MoveChecker.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9812FFA51D575BA900F49304"
+               BlueprintIdentifier = "983FFE3D1D93577A00C381B5"
                BuildableName = "MoveCheckerTests.xctest"
                BlueprintName = "MoveCheckerTests"
                ReferencedContainer = "container:MoveChecker.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9812FFB01D575BA900F49304"
+               BlueprintIdentifier = "983FFE481D93577A00C381B5"
                BuildableName = "MoveCheckerUITests.xctest"
                BlueprintName = "MoveCheckerUITests"
                ReferencedContainer = "container:MoveChecker.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9812FF941D575BA800F49304"
+            BlueprintIdentifier = "983FFE2C1D93577A00C381B5"
             BuildableName = "MoveChecker.app"
             BlueprintName = "MoveChecker"
             ReferencedContainer = "container:MoveChecker.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9812FF941D575BA800F49304"
+            BlueprintIdentifier = "983FFE2C1D93577A00C381B5"
             BuildableName = "MoveChecker.app"
             BlueprintName = "MoveChecker"
             ReferencedContainer = "container:MoveChecker.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9812FF941D575BA800F49304"
+            BlueprintIdentifier = "983FFE2C1D93577A00C381B5"
             BuildableName = "MoveChecker.app"
             BlueprintName = "MoveChecker"
             ReferencedContainer = "container:MoveChecker.xcodeproj">
