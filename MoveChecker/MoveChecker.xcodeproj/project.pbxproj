@@ -19,6 +19,7 @@
 		983FFE651D93584400C381B5 /* Folder_open.png in Resources */ = {isa = PBXBuildFile; fileRef = 983FFE5F1D93584400C381B5 /* Folder_open.png */; };
 		983FFE661D93584400C381B5 /* Hatena.artx in Resources */ = {isa = PBXBuildFile; fileRef = 983FFE601D93584400C381B5 /* Hatena.artx */; };
 		983FFE671D93584400C381B5 /* Hatena.png in Resources */ = {isa = PBXBuildFile; fileRef = 983FFE611D93584400C381B5 /* Hatena.png */; };
+		988162DA1D94DD2800D79D1D /* FromTo_Cntl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988162D71D94DD2800D79D1D /* FromTo_Cntl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		983FFE5F1D93584400C381B5 /* Folder_open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Folder_open.png; sourceTree = "<group>"; };
 		983FFE601D93584400C381B5 /* Hatena.artx */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Hatena.artx; sourceTree = "<group>"; };
 		983FFE611D93584400C381B5 /* Hatena.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hatena.png; sourceTree = "<group>"; };
+		988162D71D94DD2800D79D1D /* FromTo_Cntl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FromTo_Cntl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,10 +110,11 @@
 			isa = PBXGroup;
 			children = (
 				983FFE5B1D93584400C381B5 /* Images */,
+				983FFE361D93577A00C381B5 /* Main.storyboard */,
 				983FFE301D93577A00C381B5 /* AppDelegate.swift */,
 				983FFE321D93577A00C381B5 /* ViewController.swift */,
+				988162D71D94DD2800D79D1D /* FromTo_Cntl.swift */,
 				983FFE341D93577A00C381B5 /* Assets.xcassets */,
-				983FFE361D93577A00C381B5 /* Main.storyboard */,
 				983FFE391D93577A00C381B5 /* Info.plist */,
 			);
 			path = MoveChecker;
@@ -216,6 +219,7 @@
 				TargetAttributes = {
 					983FFE2C1D93577A00C381B5 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4MR9PFC32K;
 						ProvisioningStyle = Automatic;
 					};
 					983FFE3D1D93577A00C381B5 = {
@@ -289,6 +293,7 @@
 			files = (
 				983FFE331D93577A00C381B5 /* ViewController.swift in Sources */,
 				983FFE311D93577A00C381B5 /* AppDelegate.swift in Sources */,
+				988162DA1D94DD2800D79D1D /* FromTo_Cntl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,7 +434,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4MR9PFC32K;
 				INFOPLIST_FILE = MoveChecker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tera.MoveChecker;
@@ -442,7 +449,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4MR9PFC32K;
 				INFOPLIST_FILE = MoveChecker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tera.MoveChecker;
@@ -528,6 +537,7 @@
 				983FFE541D93577A00C381B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		983FFE551D93577A00C381B5 /* Build configuration list for PBXNativeTarget "MoveCheckerTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +546,7 @@
 				983FFE571D93577A00C381B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		983FFE581D93577A00C381B5 /* Build configuration list for PBXNativeTarget "MoveCheckerUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +555,7 @@
 				983FFE5A1D93577A00C381B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
